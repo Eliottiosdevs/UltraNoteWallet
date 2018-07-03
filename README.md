@@ -50,11 +50,11 @@ Qt 5.10 installed via Homebrew is difficult to bundle with an application. If yo
 
 ```
 # when using the Makefile wrapper
-make QT5_ROOT_PATH=~/Qt/5.10.0/clang_64/
+make QT5_ROOT_PATH=~/Qt/5.11.1/clang_64/
 
 # or when you use cmake directly
 cd build/release
-cmake -DQT5_ROOT_PATH=~/Qt/5.10.0/clang_64/ ../..
+cmake -DQT5_ROOT_PATH=~/Qt/5.11.1/clang_64/ ../..
 make -j4
 ```
 
